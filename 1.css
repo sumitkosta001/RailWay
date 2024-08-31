@@ -1,7 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .header{
     background-color: #78B7D0;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex{
+    display:flex;
     justify-content: center;
     align-items: center;
 }
@@ -10,6 +21,7 @@
     margin: auto;
     height: 50px;
     width: 50px;
+    border-radius: 25px;
 }
 #train{
     height: 650px;
@@ -18,7 +30,7 @@
 }
 .train{
     width: 100vw;
-    height: auto;
+    height:auto;
     position: relative;
 }
 .train-text{
@@ -51,4 +63,131 @@
 }
 #h1{
     text-decoration: none;
+}
+
+.floatingwindow{
+    height:300px;
+    background-color: #F9DBBA;
+    width:80%;
+    margin-left: 150px;
+    position: absolute;
+    top:550px;
+
+}
+
+.first{
+    margin:38px;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#from, #to{
+    font-size: 24px;
+    padding:10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+.ques{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-top: 200px;
+    position: relative;
+    width: 550px;  
+}
+.sec_grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+
+}
+.sec_card1,.sec_card2,.sec_card3,.sec_card4{
+    border: 1px black solid;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    transition: .2s;  
+}
+.sec_card1:hover{
+    transform: scale(1.05);
+}
+.sec_card2:hover{
+    transform: scale(1.05);
+}
+.sec_card3:hover{
+    transform: scale(1.05);
+}
+.sec_card4:hover{
+    transform: scale(1.05);
+}
+
+#sec_img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+.girl{
+    height:250px;
+    width: auto;
+    position: relative;
+    right: 50px;
+}
+.help{
+    margin: 50px;
+    margin-top: 100px;
+    background-color: #FFF5E4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.help-text{
+    margin-left: 20%;
+}
+.holiday{
+    margin-left: 100px;
+}
+.sec_grid2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+#sec2_img{
+    height: 250px;
+    width: 410px;
+    border-radius: 10px;
+    
+}
+.sec2_card1,.sec2_card2,.sec2_card3{
+    border: 1px black solid;
+    /* padding: 20px; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    transition: .2s;  
+    
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.last-logo{
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 50%;
+    margin-top: 70px;
+
 }
