@@ -150,10 +150,14 @@
     justify-content: space-between;
 }
 .help-text{
-    margin-left: 20%;
+    margin-left: 22%;
+    margin-top: 50px;
 }
 .holiday{
+    font-size: 3rem;
     margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px ;
 }
 .sec_grid2{
     display: grid;
@@ -177,10 +181,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;  
-    transition: .2s;  
-    
+    transition: .2s; 
+    padding-bottom: 20px; 
     padding-left: 0%;
     padding-right: 0%;
+    column-gap: 10px;
 }
 
 .last-logo{
@@ -189,5 +194,73 @@
     border-radius: 50%;
     margin-left: 50%;
     margin-top: 70px;
+    margin-left: 47%;
 
+}
+
+.second{
+    display: flex;
+    justify-content: space-around;
+}
+
+.meow{
+    padding: 10px;
+    border-radius: 5px;
+}
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#check{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+
+.last-para{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.row{
+    width: 50%;
+    margin: 0 auto;
+    padding: 0.5px;
+    background-color: black;
+}
+
+.footer{
+    margin-top: 50px;
+    background-color: #EEEDEB;
+    padding-bottom: 50px;
+}
+
+.lists{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+
+ ul {
+    list-style-type: none;
+}
+#l{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: #405D72;
+}
+button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(70, 70, 217);
+    color: white;
 }
